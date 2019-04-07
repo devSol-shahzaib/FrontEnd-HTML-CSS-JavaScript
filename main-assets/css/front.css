@@ -1,0 +1,427 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: 'Venacti';
+  src: url('../fonts/Venacti.eot?#iefix') format('embedded-opentype'),  url('../fonts/Venacti.woff') format('woff'), url('../fonts/Venacti.ttf')  format('truetype'), url('../fonts/Venacti.svg#Venacti') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Raleway-Regular.woff') format('woff'), url('../fonts/Raleway-Regular.ttf')  format('truetype'), url('../fonts/Raleway-Regular.svg#Raleway-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{font-size:14px;font-family: 'Raleway-Regular'!important;}
+
+ul{margin:0px !important;padding:0px !important;}
+li,p,h1,h2,h3,h4,h5,h6{padding:0px; margin:0px; list-style:none;font-weight:normal;}
+textarea{resize:none;}
+p{margin:0px !important;}
+
+input{outline:none;}
+p{word-wrap:break-word;}
+img{max-width:100%;overflow:hidden;}
+a{-moz-transition:all ease-in-out .3s;-ms-transition:all ease-in-out .3s;-o-transition:all ease-in-out .3s;-webkit-transition:all ease-in-out .3s;transition:all ease-in-out .3s;text-decoration:none !important;}
+/*********body-container************/
+
+
+
+.fontVenacti{
+    font-family: 'Venacti';
+}
+.whiteCont{
+    background-color: #ffffff;
+    width:100%;
+    padding:55px;
+}
+.grayBackground{
+    background-color: #eeeeee;
+    height: auto;
+}
+.greenBackground{
+    background-color: #82bb41;
+    height:auto;
+}
+.awardImg{
+    margin:10px;
+}
+.paraBlack{
+    color:#000000;
+}
+/*CSS added by:Shahzaib Ali*/
+/*conversion reports page styline*/
+.coverBackground{
+    width: 100%;
+    display: inline-block;
+    background:url("../images/coverPage.png") center no-repeat;
+    background-size: cover;
+    padding: 78px 0;
+}
+.headingWhite{
+    color:#ffffff;
+    font-family: 'Venacti';
+}
+
+.cr-contentHeading{
+    font-family: 'Venacti';
+    color:#000000;
+    padding-bottom:55px; 
+    text-align: center;
+}
+.headingGreen{
+    color:#82bb41;
+}
+.requestBtnMargin{
+    padding-top:37px
+}
+.requestBtn{
+    text-decoration: none;
+    background-color: #82bb41;
+    color:#ffffff;
+    padding:10px 15px;
+    border-radius: 5px;
+}
+.requestBtn:hover{
+    text-decoration: none;
+    background-color: #eeeeee;
+    color:#82bb41;
+}
+
+.cr-grayContentCont{
+    background-color: #eeeeee;
+    text-align: center;
+    padding:55px 0px;
+}
+.certificateImg{
+    margin-top:20px;
+    margin-right:20px; 
+}
+.propDiv{
+    width: 100%;
+    padding-top:55px;
+    padding-bottom:55px;
+    color:#444444;
+}
+.propImg{
+text-align: center;
+}
+.propGray{
+    background-color:#eeeeee;
+}
+.cr-paraPadding{
+padding:0px 126px;
+}
+.GreenCont{
+    color:#ffffff;
+    background-color: #81bb42;
+    padding:55px 0px;
+    text-align: center;
+}
+.whiteReportCard{
+    width: 100%;
+    text-align: center;
+}
+.whiteCardLeft{
+    margin-left:100px;
+}
+.whiteCardMargin{
+    margin:30px;
+}
+.whiteReportLink{
+    color:#ffffff;
+    text-decoration: none;
+    display: block;
+   }
+.whiteReportLink:hover{
+    font-weight: 600;
+    text-decoration: none;
+    color:#eeeeee;
+}
+
+/*end conversion reports page styling*/
+
+/*marketing packages page styling*/
+
+
+.mp-coverPage{
+    background: Url("../images/CoverPage2.png") center no-repeat;
+    background-size:cover;
+    width: 100%;
+    padding:56px 0px;
+ }
+.mp-coverHeadingCont{
+   text-align: left;
+    padding-top:194px;
+    color:#ffffff; 
+}
+.mp-coverHeading{
+    font-family: 'Venacti';
+}
+.mp-FormCont{
+    
+    background: #ffffff;
+    text-align: center;
+    padding:20px;
+    border-radius:5px;
+}
+.mp-forminput{
+    padding: .5rem .0rem !important;
+    font-family: 'Raleway-Regular';
+    font-size: 14px !important;
+    border:none !important;
+    margin-bottom: 10px;
+    border-radius:0px !important;
+    border-bottom: 1px solid #82bb41 !important;
+}
+.mp-contentheading{
+    padding:57px 0px;
+    text-align: center;
+    color:#000000;
+    font-family: 'Venacti';
+}
+.fontGray{
+    color:#5e5e5e;
+}
+#mp-tbTop{
+    border-top:10px solid #81bb42 !important; 
+}
+.mp-tableHeader{
+    text-align: center;
+    background-color: #ffffff;
+    border:1px solid #d1d1d1;
+}
+.mp-scopeText{
+text-align: right;
+font-size: 16px;
+}
+.mp-tableBorder{
+    text-align: center;
+ border-right:1px solid #d1d1d1;
+ border-left:1px solid #d1d1d1;
+}
+.mp-icon{
+color:#81bb42;
+margin:0px 5px;
+}
+.mp-rowClr{
+    background-color:#dddddd;
+}
+.mp-rowGreen{
+ color:#81bb42;
+ background-color: #ffffff !important;
+}
+.mp-contentPara{
+ text-align: center;
+ padding:55px 156px;
+ font-size: 20px;
+}
+.mp-awardCont{
+    font-family: 'Venacti';
+    background-color: #eeeeee;
+    width:100%;
+    padding:55px 0px;
+}
+
+/*BlogVideo page styling*/
+.paraMargin{
+    margin-bottom: 0px;
+}
+.header{
+   vertical-align: middle;
+   width: 100%;
+    color:#000000;
+    background-color: #e5e7e5;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.header .navbar-brand a img{
+vertical-align: 0%;
+}
+.header-items{
+    list-style: none;
+    text-decoration: none;
+    display:inline;
+    margin-left:15px;
+}
+.header-links{
+    color:#000000;
+    font-weight: bold;
+    padding:5px;
+    border-radius:2px;
+   
+}
+.header-links:hover,.header-links:active{
+    color:#ffffff;
+    background-color: #f10202;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+    
+}
+.header-contact{
+    display:inline;
+}
+.header-numbers{
+    font-weight: 400;    
+    color: #555252;
+    display: inline;
+}
+.coverSec{
+    width: 100%;
+    background-image:url(../images/Productcover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white; 
+    padding: 50px 0px 50px 0px;
+}
+.coverSec p{
+    font-size: 20px;
+}
+.videos{
+    padding:50px 0px 50px 0px;
+}
+.videos .heading{
+    font-weight: bold;
+    font-size: 32px;
+    border-bottom: 5px solid rgb(211, 19, 19); 
+    padding-bottom:20px;
+}
+.video-headingCont{
+    height:70px;
+    margin: 20px 20px;
+    
+}
+.video-heading{
+    border-bottom: 4px solid #f10202;
+}
+
+
+.video-containerImg {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    }
+  
+  .video-image {
+    display: block;
+    border-radius: 20px;
+   
+  }
+  
+  .video-containerImg:hover {
+    opacity: 0.5;
+  }
+  
+  .video-iconOverlay {
+    color:#f10202 ;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fa-playColor:hover {
+    color:#efeee9;
+}
+
+.video-subText{
+    color:#909090;
+    margin:5px 10px;
+    font-size:13px;
+}
+.video-subTextLink{
+    color:#909090;
+    font-size:13px;
+    text-decoration: none;
+}
+.video-subTextLink:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.video-icon{
+    margin-right:10px;
+}
+.video-paraMargin{
+    margin-bottom: 0px;
+}
+.video-mainText{
+    color:#555252;
+    font-family: 'Montserrat', sans-serif;
+}
+.video-mainText:hover{
+    text-decoration: none;
+    color:#f10202;
+}
+.paginationDiv{
+    margin: 20px 0 20px 0;
+}
+.paginationDiv ul li a{
+    margin-left: 5px;
+    border-radius:5px;
+    color:#000000;
+}
+.paginationDiv ul li a:hover{
+    color:#f10202;
+}
+#btnNext{
+    background-color:#d4d4d4;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+@media (max-width: 1200px) {}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {
+    .header{
+        text-align: center
+    }
+    .tb-overflow{
+        overflow:auto;
+        max-width: 100%;
+    }
+    .mp-coverHeadingCont{
+        padding-top:40px; 
+    }
+    .mp-contentPara{
+        padding:40px 100px;
+    }
+    .cr-paraPadding{
+        padding:0px 20px;
+        }
+    .whiteCardLeft{
+        margin-left:0px;
+    }
+
+}
+@media (max-width: 576px) {
+    .header{
+        text-align: center;
+    }
+    .tb-overflow{
+        overflow:auto;
+        max-width: 100%;
+    }
+    .mp-coverHeadingCont{
+        padding-top:20px; 
+    }
+    .mp-contentheading{
+        padding:20px 0px;
+    }
+    .mp-contentPara{
+        padding:20px 50px;
+    }
+    .cr-paraPadding{
+        padding:0px 10px;
+        }
+    .coverBackground{
+        padding:20px 0px;
+    }
+}
+
